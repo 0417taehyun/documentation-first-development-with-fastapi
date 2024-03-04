@@ -1,0 +1,10 @@
+# MacOS
+.DS_Store
+
+# Package
+.venv
+
+# Cache
+__pycache__
+.mypy_cache
+.ruff_cache
