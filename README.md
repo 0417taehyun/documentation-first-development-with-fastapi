@@ -11,5 +11,4 @@
 ### Code generator through OpenAPI
 
 - [openapi-typescript-codegen](https://github.com/ferdikoomen/openapi-typescript-codegen)
-- [https://github.com/deepmap/oapi-codegen](oapi-codegen)
-
+- [oapi-codegen](https://github.com/deepmap/oapi-codegen)
