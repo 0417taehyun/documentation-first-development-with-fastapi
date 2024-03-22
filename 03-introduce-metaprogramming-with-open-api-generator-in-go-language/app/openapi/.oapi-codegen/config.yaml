@@ -1,0 +1,8 @@
+package: docs
+generate:
+  gin-server: true
+  models: true
+output: openapi/openapi.gen.go
+output-options:
+  skip-prune: true
+  

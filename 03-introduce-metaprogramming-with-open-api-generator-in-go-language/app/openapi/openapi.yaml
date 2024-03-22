@@ -1,0 +1,48 @@
+openapi: 3.1.0
+info:
+  title: The second version of API
+  description: Describe the fundamental concept of DFD(Documentation-First Developmemt).
+  contact:
+    email: 0417taehyun@gmail.com
+  version: 1.0.0
+
+paths:
+  /books:
+    get:
+      tags:
+        - Book
+      summary: Get Books
+      description: |-
+        Description 
+
+            1. Get all books.
+
+        To-do 
+
+            1. Serach by name with query parameter.
+      operationId: get_books_books_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/Book'
+                type: array
+                title: Response Get Books Books Get
+components:
+  schemas:
+    Book:
+      properties:
+        name:
+          type: string
+          title: Name
+          description: Name of book.
+          examples:
+            - Demian
+            - Siddhartha
+      type: object
+      required:
+        - name
+      title: Book

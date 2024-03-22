@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "04-introduce-fastapi-and-pydantic-with-a-code-based-documentation"
+version = "1.0.0"
+description = "Introduce FastAPI and Pydantic with a code-based documentation."
+authors = ["Taehyun Lee <0417taehyun@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
